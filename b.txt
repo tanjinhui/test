@@ -2,10 +2,3 @@ sa
 b
 c
 d
-test bug
-123123
-1111
-asdfsdf
-sdfasdf
-asdf
-asdfsadf
