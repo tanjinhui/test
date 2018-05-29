@@ -1,0 +1,9 @@
+git checkout -b dev  //创建dev分支，然后切换到dev分支
+git push -f  //强制push到远程
+git branch dev  //创建分支
+git checkout dev //切换分支
+git branch //查看当前分支
+git merge dev //合并分支dev 
+git branch -d dev //删除分支
+git branch -D dev //强制删除分支
+git log --graph --pretty=oneline --abbrev-commit  //查看commit历史
