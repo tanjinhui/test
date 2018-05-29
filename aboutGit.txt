@@ -7,7 +7,9 @@ git merge dev //合并分支dev
 git branch -d dev //删除分支
 git branch -D dev //强制删除分支
 git log --graph --pretty=oneline --abbrev-commit  //查看commit历史
-git push origin --tags可以推送全部未推送过的本地标签
-git push origin <tagname>可以推送一个本地标签
-git tag -d <tagname>可以删除一个本地标签
-git push origin :refs/tags/<tagname>可以删除一个远程标签
+git push origin --tags //可以推送全部未推送过的本地标签
+git push origin <tagname> //可以推送一个本地标签
+git tag -d <tagname>  //可以删除一个本地标签
+git push origin :refs/tags/<tagname>  //可以删除一个远程标签
+git diff b.txt //查看工作区与暂存区的不同
+git diff head b.txt //查看工作区与版本区的不同
