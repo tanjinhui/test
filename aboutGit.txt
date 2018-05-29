@@ -13,3 +13,8 @@ git tag -d <tagname>  //可以删除一个本地标签
 git push origin :refs/tags/<tagname>  //可以删除一个远程标签
 git diff b.txt //查看工作区与暂存区的不同
 git diff head b.txt //查看工作区与版本区的不同
+git reset --hard commit_id/head^/head~1-100 //还原版本
+git reflog  //记录每一次命令
+cat b.txt //查看文件
+git checkout -- readme.txt //清除工作区的修改
+git reset head b.txt  //清除暂存区的修改
