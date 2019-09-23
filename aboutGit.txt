@@ -1,3 +1,5 @@
+git add .  //提交所有的修改到缓存区
+git commit -am //相当于git add . 与git commit –m “本次提交描述”两句操作合并为一句进行使用
 git checkout -b dev  //创建dev分支，然后切换到dev分支
 git push -f  //强制push到远程
 git branch dev  //创建分支
